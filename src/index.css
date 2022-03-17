@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #eee;
+}
+
+.header{
+  display: flex;
+  background-color: #fff;
+  font-family: 'Nanum Pen Script', cursive;
+  font-weight: 50;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tittle{
+  padding: .2em;
+  font-size: 3rem;
+  color: #003554;
+  margin-left: .5em;
+}
+
+.content{
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 1em;
+  min-height: 80vh;
+  margin: 1.5em;
+  color: #fff;
+  box-shadow: 7px 30px -10px #040405;
+}
+
+.panel {
+  min-height: 15vh;
+  border-radius: 1em;
+  margin: .4em;
+}
+
+.text {
+  background-color: #040405;
+  text-align: center;
+  align-items: center;
+  padding: .5em;
+  border-radius: 1em 1em 0 0;
+  opacity: .8;
+}
+
+.btn{
+  padding: .1em;
+  margin-right: 1.5em;
+  width: 8em;
+  height: 1em;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.4em;
+  background-color: #fff;
+  border-radius: 2em;
+}
+.btn:hover{
+  background-color:  #c3c3c3;
+}
